@@ -1,0 +1,13 @@
+//
+//  UpLoadVideoController.h
+//  DouYin_OC
+//
+//  Created by 孙志雄 on 2023/2/16.
+//
+
+
+#import <UIKit/UIKit.h>
+
+@interface UpLoadVideoController : UIViewController
+
+@end

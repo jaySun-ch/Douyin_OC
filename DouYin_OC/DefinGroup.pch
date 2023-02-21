@@ -1,0 +1,57 @@
+
+
+//
+//  DefinGroup.pch
+//  DouYin(OC)
+//
+//  Created by 孙志雄 on 2022/11/17.
+//
+#import <AVFoundation/AVFoundation.h>
+#import <Masonry/Masonry.h>
+#import <YYKit/YYKit.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import "UIScrollView+Extension.h"
+#import <UserNotifications/UserNotifications.h>
+#import "BRNotificationCenter.h"
+#import <DouYin_OC-Swift.h>
+#import "BRWebCacheHelper.h"
+
+
+#import "NSString+Extension.h"
+#import "NSNotification+Extension.h"
+#import "UIViewController+Extension.h"
+#import "UINavigationController+Extension.h"
+#import "UIWindow+Extension.h"
+#import "BRWindow+Extension.h"
+#import "NSDate+Extension.h"
+#import "NetWorkHelper.h"
+#import "HWPanModal.h"
+#import "WHAreaPickerView.h"
+#import " CustomLoadView.h"
+#import "CustomAlertSheetView.h"
+#import "CustomImagePicker.h"
+#import "BRSliderBar.h"
+
+#import "AppUserData.h"
+#import "ImageAlbumItem.h"
+#import "AllTalkMessageData.h"
+#import "ConcernListData.h"
+
+
+#define LeftPadding 30
+#define TabbarHeight 83
+#define ScreenWidth  UIScreen.mainScreen.bounds.size.width
+#define ScreenHeight  UIScreen.mainScreen.bounds.size.height
+#define SmallFont [UIFont systemFontOfSize:12.0]
+#define MoreSmallFont [UIFont systemFontOfSize:12.0]
+
+#define SafeAreaBottomHeight  30
+#define SafeAreaTopHeight ((ScreenHeight >= 812.0) && [[UIDevice currentDevice].model isEqualToString:@"iPhone"] ? 88 : 64)
+
+#define ScreenFrame UIScreen.mainScreen.bounds
+
+#define lightgraycolor [UIColor colorNamed:@"lightgray"]
+#define titleFont [UIFont systemFontOfSize:16.0 weight:UIFontWeightMedium]
+#define subtitleFont [UIFont systemFontOfSize:14.0]
+#define subtitleFontMedium [UIFont systemFontOfSize:14.0 weight:UIFontWeightMedium]
