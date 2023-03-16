@@ -14,7 +14,6 @@
 #import "BRCropCricleImage.h"
 #import "BRPreviewVideoDefaultController.h"
 
-
 NSString *const BRImagecell = @"BRImageCell";
 NSString *const BRVideocell = @"BRVideoCell";
 NSString *const BRTableCell = @"BRTableCell";
@@ -30,8 +29,6 @@ NSString *const BRTableCell = @"BRTableCell";
 @property (nonatomic,strong) UIButton *nextbutton; //完成视频挑选button
 @property (nonatomic,strong) NSMutableArray<PHAsset *> *PickImageArray;
 @property (nonatomic,strong) UIScrollView *MultiPickDetialBar;
-
-
 @property (nonatomic,strong) BRMediaConfig *Defaultconfig;
 @property (nonatomic,strong) ImageAlbumItem *currentItem;
 @property (nonatomic,strong) UIView *TopBar;

@@ -8,7 +8,6 @@
 #import "ResultOfClientView.h"
 #import "RecommendClientCell.h"
 
-
 @interface ResultOfClientView()<UITableViewDelegate,UITableViewDataSource,RecommendClientCellDelegate,PDConcernSendSocketDelegate>
 @property (nonatomic,strong) NSString *SearchText;
 @property (nonatomic,strong) UITableView *tableView;

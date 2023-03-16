@@ -100,7 +100,7 @@
 }
 
 -(void)initScrollView{
-    self.scrollview = [[UIScrollView alloc] initWithFrame:self.view.frame];
+    self.scrollview = [[UIScrollView alloc] init];
     [self.scrollview setZoomScale:1.0];
     [self.scrollview setMaximumZoomScale:5.0];
     self.scrollview.showsVerticalScrollIndicator = NO;
@@ -116,10 +116,18 @@
 -(void)SetImage{
     self.imageView = [[UIImageView alloc]initWithFrame:CGRectMake(20, 0,ScreenWidth - 40, ScreenHeight)];
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.scrollview.backgroundColor = [UIColor greenColor];
     [self.imageView setImage:self.OriginImage];
     [self.scrollview addSubview:self.imageView];
     [self.scrollview setMinimumZoomScale:1.0];
     CGFloat newHeight = self.OriginImage.size.height * (ScreenWidth - 40)/self.OriginImage.size.width;
+    if(newHeight < MaskCircleSize){
+        /// 如果新的高度比设置的圆圈小 那么
+        newHeight = MaskCircleSize;
+        NSLog(@"%f MaskCircleSize",newHeight);
+    }
+    self.scrollview.frame = CGRectMake(0, 0, ScreenWidth - 40,newHeight);
+    self.scrollview.center = self.view.center;
     [self.scrollview setContentSize:CGSizeMake(ScreenWidth - 40,newHeight)];
     NSLog(@"%f scrollSize",self.scrollview.contentSize.height);
     self.imageView.center = self.scrollview.center;

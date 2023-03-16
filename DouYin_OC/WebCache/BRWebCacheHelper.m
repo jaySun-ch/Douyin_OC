@@ -20,6 +20,7 @@
     dispatch_once(&once, ^{
         cache = [BRWebCacheHelper new];
     });
+    
     return cache;
 }
 

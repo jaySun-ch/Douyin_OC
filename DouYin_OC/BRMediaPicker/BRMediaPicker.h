@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BRMediaPicker : UIViewController
+
 - (instancetype)initWithConfig:(BRMediaConfig*)config;
 
 @end

@@ -27,8 +27,6 @@
         [self.myDelegate tabbarDidClickCustomPlusButton:self];
     }
 }
-
-
 //    for (int index = 0; index < 5; index++) {
 //        CustomTabarItem *tabBarItem = self.tabItems[index];
 //        CGFloat itemX = (index+1) * (itemW);

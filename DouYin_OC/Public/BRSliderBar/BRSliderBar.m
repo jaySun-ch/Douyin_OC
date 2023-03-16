@@ -8,7 +8,9 @@
 #import "BRSliderBar.h"
 
 #define ButtonWidth 50
+
 #define ButtonSpaceWith 20
+
 @interface BRSliderBar()
 @property (nonatomic,strong) UIScrollView *scrollview;
 @property (nonatomic,strong) NSArray<NSString *> *array;

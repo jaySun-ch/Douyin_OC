@@ -230,6 +230,12 @@
 		3DF70CDA293DC2DF00CCBC51 /* CustomColletionImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF70CD9293DC2DF00CCBC51 /* CustomColletionImageCell.m */; };
 		3DF70CDD293DCD2F00CCBC51 /* BRCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF70CDC293DCD2F00CCBC51 /* BRCenterButton.m */; };
 		3DF70CE0293DDDCC00CCBC51 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF70CDF293DDDCC00CCBC51 /* CustomTableCell.m */; };
+		3DF7947329C3623600D55212 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947229C3623600D55212 /* 1.PNG */; };
+		3DF7947529C363AE00D55212 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947429C363AE00D55212 /* 2.PNG */; };
+		3DF7947929C367EC00D55212 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947629C367EC00D55212 /* 3.PNG */; };
+		3DF7947A29C367EC00D55212 /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947729C367EC00D55212 /* 4.PNG */; };
+		3DF7947B29C367EC00D55212 /* 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947829C367EC00D55212 /* 5.PNG */; };
+		3DF7947D29C36C1E00D55212 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DF7947C29C36C1E00D55212 /* 6.gif */; };
 		5656C4E8670E850863026D10 /* Pods_DouYin_OCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D0B77C59774AC6EEBD7D4F /* Pods_DouYin_OCUITests.framework */; };
 		D46B808D1D1B0AE6595C83CD /* Pods_DouYin_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79EDBF4E3636744475BD697 /* Pods_DouYin_OC.framework */; };
 /* End PBXBuildFile section */
@@ -298,6 +304,7 @@
 		3D312BAC29417E30003D6D5A /* EditSchoolTablCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditSchoolTablCell.h; sourceTree = "<group>"; };
 		3D312BAE2941845D003D6D5A /* SelectSchoolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSchoolView.m; sourceTree = "<group>"; };
 		3D312BB029418461003D6D5A /* SelectSchoolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSchoolView.h; sourceTree = "<group>"; };
+		3D55525029B8EF08002EA454 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D62E37A294C64BD00413A5C /* FansListDetialData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FansListDetialData.m; sourceTree = "<group>"; };
 		3D62E37C294C64C500413A5C /* FansListDetialData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FansListDetialData.h; sourceTree = "<group>"; };
 		3D62E37D294C656000413A5C /* FriendListDetialData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendListDetialData.m; sourceTree = "<group>"; };
@@ -703,6 +710,12 @@
 		3DF70CDE293DCD3300CCBC51 /* BRCenterButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCenterButton.h; sourceTree = "<group>"; };
 		3DF70CDF293DDDCC00CCBC51 /* CustomTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 		3DF70CE1293DDDD000CCBC51 /* CustomTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		3DF7947229C3623600D55212 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		3DF7947429C363AE00D55212 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		3DF7947629C367EC00D55212 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
+		3DF7947729C367EC00D55212 /* 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.PNG; sourceTree = "<group>"; };
+		3DF7947829C367EC00D55212 /* 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.PNG; sourceTree = "<group>"; };
+		3DF7947C29C36C1E00D55212 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
 		580B60357756A2573596F63B /* Pods-DouYin_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin_OC/Pods-DouYin_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		6F42EC946B0B60604892092F /* Pods_DouYin_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYin_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D0B77C59774AC6EEBD7D4F /* Pods_DouYin_OCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYin_OCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -947,6 +960,8 @@
 				3D6E37242939A10A00753EAD /* main.m */,
 				3D6E37A62939A1D000753EAD /* DefinGroup.pch */,
 				3D2035072947088F00194B27 /* DouYin_OC-Bridging-Header.h */,
+				3D55525029B8EF08002EA454 /* README.md */,
+				3DF7947129C3622000D55212 /* Demo picture */,
 			);
 			path = DouYin_OC;
 			sourceTree = "<group>";
@@ -2029,6 +2044,19 @@
 			path = CustomImagePicker;
 			sourceTree = "<group>";
 		};
+		3DF7947129C3622000D55212 /* Demo picture */ = {
+			isa = PBXGroup;
+			children = (
+				3DF7947229C3623600D55212 /* 1.PNG */,
+				3DF7947429C363AE00D55212 /* 2.PNG */,
+				3DF7947629C367EC00D55212 /* 3.PNG */,
+				3DF7947729C367EC00D55212 /* 4.PNG */,
+				3DF7947829C367EC00D55212 /* 5.PNG */,
+				3DF7947C29C36C1E00D55212 /* 6.gif */,
+			);
+			path = "Demo picture";
+			sourceTree = "<group>";
+		};
 		AB6CB64759D8FCEA111C1EC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2161,9 +2189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6E37222939A10A00753EAD /* LaunchScreen.storyboard in Resources */,
+				3DF7947B29C367EC00D55212 /* 5.PNG in Resources */,
+				3DF7947529C363AE00D55212 /* 2.PNG in Resources */,
+				3DF7947D29C36C1E00D55212 /* 6.gif in Resources */,
 				3D7856EF293FA98700D6CBE5 /* area.plist in Resources */,
 				3D6E371F2939A10A00753EAD /* Assets.xcassets in Resources */,
+				3DF7947329C3623600D55212 /* 1.PNG in Resources */,
+				3DF7947929C367EC00D55212 /* 3.PNG in Resources */,
 				3D6E371D2939A10900753EAD /* Main.storyboard in Resources */,
+				3DF7947A29C367EC00D55212 /* 4.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

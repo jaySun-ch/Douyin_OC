@@ -8,7 +8,6 @@
 import Foundation
 import SocketIO
 
-
 @objc public protocol PDReceiveSocketDelegate{
     // 从服务器中接受得到的消息
     func DidReceiveConcern(received:[Any])->Void

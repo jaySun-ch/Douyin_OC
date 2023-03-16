@@ -55,6 +55,7 @@
     self.clientImage = [[UIImageView alloc] init];
     self.clientImage.layer.cornerRadius = 50;
     self.clientImage.clipsToBounds = YES;
+    self.clientImage.contentMode = UIViewContentModeScaleAspectFill;
     [self.clientImage setImageWithURL:[NSURL URLWithString:[AppUserData GetNearstSignUser].ClientImageUrl] options:YYWebImageOptionSetImageWithFadeAnimation];
     [self.view addSubview:self.clientImage];
 

@@ -107,7 +107,7 @@
     };
     self.customTabBar = [[CustomTabbar2 alloc]initWithFrameAndtabItems:self.tabBar.frame tabItems:BarItemArr];
     self.delegate = self;
-    self.customTabBar.myDelegate = self;
+//    self.customTabBar.myDelegate = self;
     [self setValue:self.customTabBar forKey:@"tabBar"];
     self.tabBar.translucent = NO;
     UITabBarAppearance *appearance = [UITabBarAppearance new];
@@ -148,12 +148,12 @@
 }
 
 - (void)tabbarDidClickCustomPlusButton:(CustomTabbar2 *)tabbar{
-    NSLog(@"respondsToPlusButton");
-    UIViewController *newvc = [[UIViewController alloc] init];
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    [button setTitle:@"关闭" forState:UIControlStateNormal];
-    [newvc.view addSubview:button];
-    [self presentViewController:newvc animated:YES completion:nil];
+//    NSLog(@"respondsToPlusButton");
+//    UIViewController *newvc = [[UIViewController alloc] init];
+//    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    [button setTitle:@"关闭" forState:UIControlStateNormal];
+//    [newvc.view addSubview:button];
+//    [self presentViewController:newvc animated:YES completion:nil];
 }
 
 
@@ -186,7 +186,6 @@
                 newvc.modalPresentationStyle = UIModalPresentationOverFullScreen;
                 [self presentViewController:newvc animated:YES completion:nil];
             }
-         
             return NO;
         }else{
             return YES;

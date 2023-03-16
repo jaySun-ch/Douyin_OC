@@ -39,6 +39,7 @@
         _pendingRequests = [NSMutableArray array];
         _output = [[AVPlayerItemVideoOutput alloc] init];
         _player = [[AVPlayer alloc] init];
+        
         _playerLayer = [AVPlayerLayer playerLayerWithPlayer:_player];
         _playerLayer.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight-TabbarHeight);
         [self.layer addSublayer:_playerLayer];

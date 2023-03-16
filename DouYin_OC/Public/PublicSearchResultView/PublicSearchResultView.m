@@ -9,7 +9,9 @@
 #import "ResultOfClientView.h"
 
 #define NavigationBarHeight 100
+
 #define SliderBarHeight 40
+
 @interface PublicSearchResultView()<UISearchBarDelegate,UIScrollViewDelegate,BRSliderBarDelegate,UITextFieldDelegate>
 @property (nonatomic,strong) UISearchBar *searhBar;
 @property (nonatomic,strong) BRSliderBar *SliderBar;
