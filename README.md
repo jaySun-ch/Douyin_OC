@@ -3,16 +3,18 @@
 # DouYin_OC Project
 
 ## Introduce
-> <b> DouYin_OC is a Xcode Project,which is imitate DouYin.app,structure by Objective-C and Swift language. It is divided to three part.
 <b>
-The first part is UI design,in this part, we use **UIKit** , **AVFoundation** and **Masonry**  ,to create our own view.moreover, we use **CoreAnimation** to custom our own animation load view and transition style,we also use **MBProgressHUD** and **HWPanModal** to custom our own pop-up view,we also use **RSSwizzle** package to enclosure swizzle method 
-<b>
-The second part is Model design,in this part,we use **NSUserDefaults** and **plist** to achieve our Persistent Storage logic , also we use **JSONModel** package to define our own model,which will be used in NetWork Json parsing
-<b>
-The third part is Network design,in this part, we use **AFNetworking** package to enclosure our own networkt logic  "NetWorkHelper" .moreover, we use **Socket.IO** package to enclosure our own socket connection logic "PDSocketManager",we also use **NSOperation** and **NSURLSessionTaskDelegate** to package download video logic
-<b>
-The fourth part is cache design,in this part , we use **NSCache** and **NSFileManager** to package our own cache logic,we can use it to realize video cache or image cache
 
+> DouYin_OC is a Xcode Project,which is imitate DouYin.app,structure by Objective-C and Swift language. It is divided to three part.
+
+>The first part is UI design,in this part, we use **UIKit** , **AVFoundation** and **Masonry**  ,to create our own view.moreover, we use **CoreAnimation** to custom our own animation load view and transition style,we also use **MBProgressHUD** and **HWPanModal** to custom our own pop-up view,we also use **RSSwizzle** package to enclosure swizzle method 
+
+>The second part is Model design,in this part,we use **NSUserDefaults** and **plist** to achieve our Persistent Storage logic , also we use **JSONModel** package to define our own model,which will be used in NetWork Json parsing
+
+>The third part is Network design,in this part, we use **AFNetworking** package to enclosure our own networkt logic  "NetWorkHelper" .moreover, we use **Socket.IO** package to enclosure our own socket connection logic "PDSocketManager",we also use **NSOperation** and **NSURLSessionTaskDelegate** to package download video logic
+
+>The fourth part is cache design,in this part , we use **NSCache** and **NSFileManager** to package our own cache logic,we can use it to realize video cache or image cache
+</b>
 
 
 ## UI Design
@@ -54,7 +56,7 @@ C --> H[AccountViewController]
 #### 1.0.2 SignViewController
 + SignViewController : the main controller for sign in,in this controller , user can enter to other controller , the specific style is shown in the following figure 1-2
 <center>
-<img src="./Demo picture/1.PNG" style="height:500px">
+<img src="./DouYin_OC/Demo picture/1.PNG" style="height:500px">
 <p style="font-size:9pt">  1-2 specific style for SignViewController
 </center>
 
@@ -64,7 +66,7 @@ C --> H[AccountViewController]
 
 + SignWithNearUserController:the controller for sign with recent user , if user want to sign with new user, he can click down button to  SignViewController, the specific style is shown in the following figure 1-3
 <center>
-<img src="./Demo picture/2.PNG" style="height:500px">
+<img src="./DouYin_OC/Demo picture/2.PNG" style="height:500px">
 <p style="font-size:9pt">  1-3 specific style for SignWithNearUserController
 </center>
 
@@ -74,7 +76,7 @@ C --> H[AccountViewController]
 
 + VerifyMessageViewController:the controller for verify message, if user choice to sign with phone message , he will enter his phonenumber in SignViewController, than the phonenumber will be send to server,and server will send a message to user's phone,in the same time,server will send the real verify number to client. so, we just only add a logic to verify the number which input by user is it correct.the specific style is shown in the following figure 1-4
 <center>
-<img src="./Demo picture/5.PNG" style="height:500px">
+<img src="./DouYin_OC/Demo picture/5.PNG" style="height:500px">
 <p style="font-size:9pt">  1-4 specific style for VerifyMessageViewController
 </center>
 
@@ -85,7 +87,7 @@ C --> H[AccountViewController]
 
 + SignWithPasswordViewController:the controller for sign with password,we not only provide to user sign with phone message,but also provide sign with password.the specific style is shown in the following figure 1-5
 <center>
-<img src="./Demo picture/3.PNG" style="height:500px">
+<img src="./DouYin_OC/Demo picture/3.PNG" style="height:500px">
 <p style="font-size:9pt">  1-5 specific style for SignWithPasswordViewController
 </center>
 
@@ -96,7 +98,7 @@ C --> H[AccountViewController]
 + ReSetPasswordWithMessage:the controller for reset user's password , if user forget his password , he can use phonenumber to send a verify message to his phone, so that he can reset his password.the specific style is shown in the following figure 1-6
 
 <center>
-<img src="./Demo picture/3.PNG" style="height:500px">
+<img src="./DouYin_OC/Demo picture/3.PNG" style="height:500px">
 <p style="font-size:9pt">  1-6 specific style for ReSetPasswordWithMessage
 </center>
 
@@ -250,7 +252,7 @@ The loading view is a feature of the app view, which allows users to enjoy anima
 ```
 
 <center>
-<img src="./Demo picture/6.gif" style="height:500px">
+<img src="./DouYin_OC/Demo picture/6.gif" style="height:500px">
 <p style="font-size:9pt">  2-1 specific style for ReSetPasswordWithMessage
 </center>
 
